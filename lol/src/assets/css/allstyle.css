@@ -1,17 +1,17 @@
-@font-face {
-  font-family: "siyuan-bold";
-  src: url('../fonts/SourceHanSansCN-Bold.otf');
-}
-@font-face {
-  font-family: "siyuan";
-  src: url('../fonts/SourceHanSansCN-Regular.otf');
-}
+/*@font-face {*/
+  /*font-family: "siyuan-bold";*/
+  /*src: url('../fonts/SourceHanSansCN-Bold.otf');*/
+/*}*/
+/*@font-face {*/
+  /*font-family: "siyuan";*/
+  /*src: url('../fonts/SourceHanSansCN-Regular.otf');*/
+/*}*/
 *{
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
-  font-family:siyuan,Arial,sans-serif;
+  font-family:"微软雅黑";
 }
 h1,h2,h3,h4,h5,h6{
   font-family:siyuan-bold;
