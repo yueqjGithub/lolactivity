@@ -24,13 +24,14 @@
     <div class="cont1">
       <img src="@/assets/prizepic/word.png" alt="" class="infopic">
       <h4 class="priz_h">IOS用户</h4>
-      <p class="priz_p">ios用户点击注册,成功后并登录即可获得抽奖资格</p>
+      <p class="priz_p">ios用户点击注册,成功后并登录认证即可获得抽奖资格</p>
       <h4 class="priz_h">安卓用户</h4>
-      <p class="priz_p">安卓用户请点击注册后下载对应app并在app内完成注册,返回本页成功登录即可获得抽奖资格</p>
+      <p class="priz_p">安卓用户请点击注册后下载对应app并在app内完成注册,返回本页成功登录认证即可获得抽奖资格</p>
     </div>
     <!--登录框-&#45;&#45;-->
     <sign-mod class="sign_mod" v-if="signIn === 1" @closeregister="closeR"></sign-mod>
     <login-mod  class="sign_mod" v-if="signIn === 2" @closeregister="closeR" @loginsuc = "loginsuc"></login-mod>
+    <identity class="sign_mod" v-if="signIn === 3"  @closeregister="closeR" @checksuc = "checksuc"></identity>
   </div>
 </template>
 
@@ -40,18 +41,21 @@ import { Toast } from 'mint-ui'
 import SignMod from '@/components/prizepage/sign'
 // 登录框
 import LoginMod from '@/components/prizepage/login'
+// 员工认证
+import Identity from '@/components/prizepage/identity'
 export default {
   name: 'prizePage',
   data () {
     return {
-      //      控制注册面板显示 0-不显示 1-显示注册面板 2-显示登录面板
+      //      控制注册面板显示 0-不显示 1-显示注册面板 2-显示登录面板 3-认证面板
       signIn: 0,
       isLogin: false
     }
   },
   components: {
     signMod: SignMod,
-    loginMod: LoginMod
+    loginMod: LoginMod,
+    identity: Identity
   },
   methods: {
     checkNav: function () {
@@ -70,8 +74,16 @@ export default {
       this.signIn = 0
     },
     loginsuc: function () {
-      this.isLogin = true
-      this.signIn = 0
+      //      this.isLogin = true
+      this.signIn = 3
+    },
+    checksuc: function () {
+      let vm = this
+      setTimeout(function () {
+        vm.isLogin = true
+        vm.signIn = 0
+        console.log('延迟执行')
+      }, 2000)
     },
     login: function () {
       let vm = this

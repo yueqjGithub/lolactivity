@@ -3,7 +3,7 @@
     <div class="cont2">
       <div class="cont_tit2">{{titName}}</div>
       <!--http://www.w3school.com.cn/i/movie.ogg-->
-      <player src="/static/video/movie.mp4"></player>
+      <player src="/static/video/game1.mp4"></player>
     </div>
     <router-link class="more_vedio" to="/moreVideo">
       <img src="@/assets/homepic/morev.png" alt="">

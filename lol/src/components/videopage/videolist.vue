@@ -1,7 +1,10 @@
 <template>
   <div class="videoList">
     <div class="cont2">
-      <player src="http://www.w3school.com.cn/i/movie.ogg"></player>
+      <player src="/static/video/game1.mp4"></player>
+    </div>
+    <div class="cont2">
+      <player src="/static/video/game2.mp4"></player>
     </div>
   </div>
 </template>

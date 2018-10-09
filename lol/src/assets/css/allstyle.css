@@ -172,6 +172,7 @@ img {
 /*-------------------更多视频页面----------------*/
 .videoList {
   width:100%;
+  padding-top: 1px;
   padding-bottom: 25px;
   background-image: url('../../assets/teampic/bg.jpg');
   min-height: 1500px;

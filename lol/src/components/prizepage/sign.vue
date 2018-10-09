@@ -62,6 +62,7 @@ export default {
       })
     },
     registe: function () {
+      let vm = this
       let data = {
         mobile: this.tel,
         password: this.pwd
@@ -70,7 +71,7 @@ export default {
       this.axios.post(url.register, ret).then(function (res) {
         if (res.data.code === 200) {
           Toast(res.data.msg)
-          this.$emit('closeregister')
+          vm.$emit('closeregister')
         } else {
           Toast(res.data.msg)
         }
