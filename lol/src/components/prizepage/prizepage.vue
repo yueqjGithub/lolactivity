@@ -94,10 +94,22 @@ export default {
 </script>
 
 <style scoped>
-.distance {
-  height: 371px;
-}
-.phonepic {
+  @media screen and (min-width: 400px) {
+    .distance {
+      min-height: 411px;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 399px) {
+    .distance {
+      min-height: 371px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .distance {
+      min-height: 321px;
+    }
+  }
+  .phonepic {
   margin-top: -55px;
 }
 .u_div {

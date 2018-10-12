@@ -60,8 +60,26 @@ export default {
   /*min-height后面需要取消*/
   padding-bottom: 25px;
 }
+/*大屏 plus */
+@media screen and (min-width: 400px) {
+  .distance {
+    min-height: 275px;
+  }
+}
+/*中屏幕 iphone6 */
+@media screen and (min-width: 320px) and (max-width: 399px) {
+  .distance {
+    min-height: 255px;
+  }
+}
+/*小屏幕 <320*/
+@media screen and (max-width: 320px) {
+  .distance {
+    min-height: 235px;
+  }
+}
   .distance{
-    height: 252px;
+    /*height: 252px;*/
     width: 100%;
   }
   .bottomPic{
