@@ -13,14 +13,15 @@ import NotM from '@/components/pages/notMicroMsg'
 Vue.use(Router)
 
 let auth = (to, from, next) => {
-  var ua = navigator.userAgent.toLowerCase()
-  var isWeixin = ua.indexOf('micromessenger') !== -1
-  if (isWeixin) {
-    window.scrollTo(0, 0)
-    return next()
-  } else {
-    return router.push({path: 'notMicroMsg'})
-  }
+  // var ua = navigator.userAgent.toLowerCase()
+  // var isWeixin = ua.indexOf('micromessenger') !== -1
+  // if (isWeixin) {
+  //   window.scrollTo(0, 0)
+  //   return next()
+  // } else {
+  //   return router.push({path: 'notMicroMsg'})
+  // }
+  return next()
 }
 
 const router = new Router({

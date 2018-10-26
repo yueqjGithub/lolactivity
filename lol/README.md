@@ -2,6 +2,18 @@
 
 > 一个lol比赛报名的h5项目，包含注册登录人员验证，提交战队信息，
 >查看比赛视频等功能
+
+##项目截图  
+![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/2018-10-26_104120.png)  
+
+![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/2018-10-26_104246.png)  
+
+![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/2018-10-26_104342.png)  
+
+![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/2018-10-26_104406.png)  
+
+
+
 ## Build Setup
 
 ``` bash
