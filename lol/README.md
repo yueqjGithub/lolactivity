@@ -1,7 +1,7 @@
 # lol
 
-> A Vue.js project
-
+> 一个lol比赛报名的h5项目，包含注册登录人员验证，提交战队信息，
+>查看比赛视频等功能
 ## Build Setup
 
 ``` bash
