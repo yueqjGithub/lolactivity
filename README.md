@@ -4,11 +4,11 @@
 >查看比赛视频等功能
 
 ##项目截图  
-![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/2018-10-26_104120.png)  
+![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/n1%20(1).png)  
 
 ![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/2018-10-26_104246.png)  
 
-![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/2018-10-26_104342.png)  
+![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/n1%20(2).png)  
 
 ![Image text](https://github.com/yueqjGithub/tzmanager/blob/master/img-floader/2018-10-26_104406.png)  
 
